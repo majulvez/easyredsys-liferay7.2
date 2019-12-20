@@ -1,0 +1,7 @@
+Bundle-Name: easyredsys-configuration-api
+Bundle-SymbolicName: com.mycompany.easyredsys.configuration.api
+Bundle-Version: 1.0.0
+
+-metatype: *
+
+Export-Package: com.mycompany.easyredsys.configuration.api.*

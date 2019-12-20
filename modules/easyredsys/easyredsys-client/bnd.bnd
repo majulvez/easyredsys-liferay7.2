@@ -1,0 +1,19 @@
+Bundle-Name: easyredsys-client
+Bundle-SymbolicName: com.mycompany.easyredsys.client
+Bundle-Version: 1.0.0
+
+Export-Package: com.mycompany.easyredsys.client.*,\
+                com.miguelangeljulvez.easyredsys.client.*,\
+                sis.redsys.api.*
+
+Import-Package: !com.sun.msv.*,\
+                !com.sun.net.*,\
+                !com.google.appengine.api.*,\
+                !com.sun.org.apache.xerces.*,\
+                !org.apache.avalon.framework.logger.*,\
+                !org.apache.log.*,\
+                !org.glassfish.hk2.osgiresourcelocator.*,\
+                !org.jvnet.hk2.*,\
+                !org.relaxng.*,\
+                !sun.reflect.*,\
+                *

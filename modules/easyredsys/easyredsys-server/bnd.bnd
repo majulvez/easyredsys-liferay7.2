@@ -1,0 +1,39 @@
+Bundle-Name: easyredsys-server
+Bundle-SymbolicName: com.mycompany.easyredsys.server
+Bundle-Version: 1.0.0
+
+Include-Resource: configuration=src/main/resources/configuration
+Liferay-Configuration-Path: /configuration
+
+Import-Package: !com.sun.msv.*,\
+                !com.google.appengine.api.*,\
+                !com.google.apphosting.api.*,\
+                !com.google.errorprone.*,\
+                !com.sun.jimi.core.*,\
+                !com.sun.jdi.*,\
+                !com.sun.net.*,\
+                !com.sun.org.apache.xerces.*,\
+                !com.sun.org.apache.xml.internal.*,\
+                !com.sun.org.apache.xpath.internal.*,\
+                !com.sun.xml.fastinfoset.*,\
+                !org.apache.avalon.framework.logger.*,\
+                !org.apache.bsf.*,\
+                !org.apache.commons.modeler.*,\
+                !org.apache.commons.net.*,\
+                !org.apache.log.*,\
+                !org.exolab.castor.xml.*,\
+                !org.glassfish.hk2.osgiresourcelocator.*,\
+                !org.glassfish.jersey.*,\
+                !org.jvnet.hk2.*,\
+                !org.jvnet.fastinfoset.*,\
+                !org.jvnet.staxex.*,\
+                !org.omg.*,\
+                !org.relaxng.*,\
+                !org.slf4j.*,\
+                !sun.awt.*,\
+                !sun.reflect.*,\
+                !javax.xml.ws.*,\
+                !com.ibm.wsdl.extensions.soap.*,\
+                *
+
+-sources: true
