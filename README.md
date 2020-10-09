@@ -39,7 +39,7 @@ OrderCES orderCES = new OrderCES.Builder(appConfig)
         .payMethods(PaymentMethod.TARJETA)
         .urlOk("https://www.mycompany.com?notificacion=ok") //La página de vuelta del banco si todo ha ido bien
         .urlKo("https://www.mycompany.com?notificacion=ko") //La página de vuelta del banco si algo ha ido mal
-        .urlNotification("https://www.mycompany.com" + "/o/easyredsys-ws/InotificacionSISImpl") //El endpoint donde está escuchando easyredsys-server
+        .urlNotification("https://www.mycompany.com" + "/o/easyredsys-server/InotificacionSISImpl") //El endpoint donde está escuchando easyredsys-server
         .build();
 ```
 
